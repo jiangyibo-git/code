@@ -1,3 +1,0 @@
-# test/ys
-
-Laravel package
