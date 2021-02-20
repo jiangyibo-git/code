@@ -1,0 +1,29 @@
+{
+    "name": "test/ys",
+    "description": "Laravel package",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.*"
+    },
+    "authors": [
+        {
+            "name": "Èrik Campobadal Forés ",
+            "email": "soc@erik.cat"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Test\\Ys\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Test\\Ys\\YsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
