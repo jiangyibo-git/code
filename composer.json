@@ -1,0 +1,29 @@
+{
+    "name": "jyb/demo",
+    "description": "demo",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.6",
+        "illuminate/support": "5.*"
+    },
+    "authors": [
+        {
+            "name": "yibo.jiang",
+            "email": "jiangyibo@demo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jyb\\Demo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jyb\\Demo\\DemoServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
